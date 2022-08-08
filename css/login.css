@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+header{
+    width: 1680px;
+    height: 115px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+header h1{
+    /* 标题 和  p 可以浮动 */
+    float: left;   
+    margin-top: 24px;
+    margin-left: 42px;
+}
+header p{  
+    float: right;
+    /* 不能为p里面的a去除下划线 
+    text-decoration: none;  */
+    margin-top: 47px;
+    margin-right: 47px;
+}
+p a{  
+    /* 消除文本p下面的a的下划线 */
+    text-decoration: none;
+
+}
+p a:nth-of-type(1){
+    color: #555555;
+}
+p a:nth-of-type(2){
+    color: #003366;
+}
+p a:nth-of-type(2):hover{
+    color: #12ea33;
+}
+section{
+    width: 1680px;
+  
+    background: url('../images/temp_login2.jpg');
+    overflow: hidden;
+}
+main{
+    margin: 243px auto 100px;
+    width: 511px;
+    height: 509px;
+    background: #ffffff;
+ } 
+main h3{
+    color: #dd0010;
+    font-size: 16px;
+    padding-top: 50px;
+    margin-left: 39px;
+}
+.name input{
+    width: 433px;
+    height: 64px;
+    margin-top: 25px;
+    margin-left: 39px;
+    border: 1px solid #999999;
+}
+.password input{
+    width: 433px;
+    height: 64px;
+    margin-top: 34px;
+    margin-left: 39px;
+    border: 1px solid #999999;
+    outline: none;
+}
+/* placeholder样式 */
+::-ms-input-placeholder{
+    color: blue;
+}
+::-webkit-input-placeholder{
+    color:blue;
+}
+::placeholder{
+    color:#555555;
+    padding-left: 15px;
+}
+.zt{
+    font-size: 14px;
+    color: #999999;
+    margin-top: 27px;
+    margin-left: 49px;
+}
+.zt a:nth-of-type(1){
+    color: #003366;
+    font-size: 14px;
+    margin-left: 250px;
+}
+.zt input{
+   position: relative;
+   top: 1px;
+   right: 3px;
+}
+.dl button{
+     width: 433px;
+     height: 62px;
+     background: #e20011;
+     margin-left: 39px;
+     margin-top: 41px;
+     text-align: center;
+     outline: none;
+}
+.xc{
+    margin-left: 39px;
+    margin-top: 22px;
+    color: #308ce8;
+}
+.xv{
+    margin-left: 39px;
+    margin-top: 10px;
+    color: #999999;
+}
+.xv a:nth-of-type(1){
+    color: #003366;
+}
+.bq{ 
+    margin-bottom: 29px;
+    text-align: center;
+    color: #d7ffff;
+}
+

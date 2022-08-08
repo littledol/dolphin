@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="shortcut icon" href="../images/bitbug_favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- 以下标签用法和div一样，只是语义更重 -->
+        <!--
+             <header>头部</header>
+            <nav>导航</nav>
+            <main>主要内容</main>
+            <section>大区域内容</section>
+            <aside>侧边栏</aside>
+            <article>文章</article>
+            <footer>底部</footer>
+         -->
+         <header>
+            <h1>
+                <img src="../images/logo_txz.png" alt="">
+            </h1>
+            <!-- <ul>
+                <li>
+                    <a href="">人民网</a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul> -->
+            <p>
+                <!-- 用偶数或奇数的形式 -->
+                <a class="r" href="">人民网首页</a>  
+                <a class="b" href="">帮助</a>
+            </p>
+         </header>
+         <main>
+            <h1>注册</h1>
+           <p class="phone"><label for="phone">手机号</label><input type="text" id="phone" placeholder="使用手机号登录人民网通行证"><span>请使用你的手机注册,绑定后可用手机号登入人民网通行证</span></p>
+            
+           <p class="message"><label for="message">短信验证码</label><input type="text" id="message"><button>发送验证码</button><span>请输入6位短信验证码</span></p>
+           
+           <p class="nick"><label for="nick">昵称</label><input type="text" id="nick" placeholder="昵称一经注册,不能更改"> <span>2-12个中英文或数字,将公开显示</span></p>
+          
+           <p class="password"><label for="password">密码</label><input type="password" id="password"><span>8-20个字符,建议使用大小写字母及数字,增强密码安全性</span></p>
+           <p class="config"><label for="config">确认密码</label><input type="password" id="config"><span>请再次输入密码</span></p>
+           <p class="xieyi"><input type="checkbox"> 我已阅读并同意<a href="">人民网用户协议</a>
+            <a href="">人民网个人信息保护政策</a></p>
+           <p class="button"><input class="submit" type="submit"> <input class="reset" type="reset"></p>
+           
+         </main>
+         <footer>
+            <h5>人民网版权所有，未经书面授权禁止使用</h5>
+            <h5>Copyright© 1997-2022 by www.people.com.cn. all rights reserved</h5>
+        </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,458 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background: url(../images/bg.jpg) top center no-repeat;
+}
+.top{
+    /* width: 1688px; */
+    height: 490px;
+}
+.main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .title{
+    width: 1000px;
+    height: 500px;
+}
+.main .title h2{
+    font-size: 42px;
+    line-height: 200%;
+    text-align: center;
+}
+.main .title h2 a{
+    text-decoration: none;
+    color: rgb(213, 22, 22);
+}
+.main .title p{
+    text-align: center;
+    margin-top: 10px;
+}
+.main .title p a{
+    color: #000;
+    text-decoration: none;
+}
+.main .neir{
+    margin-top: 25px;
+    overflow: hidden;
+}
+.main .neir .pic{
+    width: 500px;
+    height: 335px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.main .neir .pic .list{
+    width: 2000px;
+    height: 335px;
+}
+.main .neir .pic .list li{
+    width: 500px;
+    float: left;
+    position: relative;
+}
+.main .neir .pic .list li img{
+    width: 500px;
+}
+.main .neir .pic .list li p{
+    width: 500px;
+    height: 50px;
+    color: #fff;
+    background: rgba(0,0,0,0.3);
+    font-size: 15px;
+    line-height: 45px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+.main .neir .pic span img{
+    width: 23.5px;
+    height: 33px;
+}
+.main .neir .pic #left{
+    top: 48%;
+    left: 7px;
+    position: absolute;
+}
+.main .neir .pic #right{
+    top: 48%;
+    right: 7px;
+    position: absolute;
+}
+.main .neir .you{
+    width: 400px;
+    height: 335px;
+    background: #ffffff;
+    float: right;
+}
+.main .neir .you .tiao{
+    width: 400px;
+    height: 335px;
+    display: inline-block;
+}
+.main .neir .you .tiao li{
+    width: 370px;
+    height: 60px;
+    padding-left: 20px;
+    background: #f0eae5;
+    margin-bottom: 30px;
+    position: relative;
+}
+.main .neir .you .tiao li:hover span{
+    width: 390px;
+    transition: all 1s;
+}
+.main .neir .you .tiao li:hover p a{
+    color: #fff;
+}
+.main .neir .you .tiao li:nth-of-type(4){
+    margin: 0px;
+}
+.main .neir .you .tiao li p{
+    text-align: left;
+    margin-top: 0px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.main .neir .you .tiao li span{
+    width: 0px;
+    height: 60px;
+    background: rgb(245, 102, 7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.main .neir .you .tiao li span a{
+    text-decoration: none;
+    line-height: 56px;
+    color: #fff;
+}
+.main .neir .you .tiao li p  a{
+    line-height: 30px;
+    color: #000;
+}
+.main .viedo{
+    margin: 10px 0px;
+    background: #ffffff;
+}
+.main .viedo .move{
+    width: 1000px;
+    height: 178px;
+    overflow: hidden;
+    position: relative;
+}
+.main .viedo .move ul{
+    width: 6000px;
+    height: 178px;
+    overflow: hidden;
+}
+.main .viedo .move ul li{
+    width: 320px;
+    height: 178px;
+    margin-right: 20px;
+    float: left;
+}
+.main .viedo .move ul li img{
+    width: 320px;
+    height: 178px;
+}
+.main .viedo .move #leftpy{
+    top: 48%;
+    left: 4px;
+    position: absolute;
+   
+}
+.main .viedo .move #rightpy{
+    top: 48%;
+    right: 4px;
+    position: absolute;
+}
+.main .symbol{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.main .symbol h2{
+    font-size: 32px;
+    line-height: 240%;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.main .symbol h2 a{
+    color: #c30d22;
+    text-decoration: none;
+}
+.main .symbollist{
+    height: 390px;
+    margin-left: 20px;
+}
+.main .symbollist ul::after{
+    content: '';
+    display: block;
+    clear: both;
+    /* overflow: hidden; */
+}
+.main .symbollist ul li{
+    padding: 8px 10px;
+   border-bottom: 1px solid #eee;
+    float: left;
+    width: 47%;
+    list-style: disc ;
+}
+.main .symbollist ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.main .symbollist ul li a:hover{
+    color: rgb(86, 183, 224);
+}
+.main .symbollist p{
+    margin-top: 10px;
+    text-align: right;
+}
+.main .symbollist p a{
+    text-decoration: none;
+    color: #000;
+}
+.main .symbollist p a:hover{
+    color: rgb(86, 183, 224);
+}
+.main .selecting h2{
+    font-size: 32px;
+    line-height: 240%;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.main .selecting h2 a{
+    color: #c30d22;
+    text-decoration: none;
+}
+.main .selectinglist{
+    height: 458px;
+}
+.main .selectinglist ul::after{
+    /* 清除浮动 */
+    content: "";
+    display: block;
+   clear: both;
+}
+.main .selectinglist ul li{
+    padding: 10px 35px;
+   border-bottom: 1px solid #eee;
+    float: left;
+    width: 43%;
+    list-style-type: disc;
+}
+.main .selectinglist ul li a{
+    color: #000;
+    text-decoration: none;
+    /* 多余部分出现点点 */
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* 显示文本的行数 */
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.main .selectinglist ul li a:hover{
+    color: rgb(86, 183, 224);
+}
+.main .selectinglist p{
+    margin-top: 10px;
+    text-align: right;
+}
+.main .selectinglist p a{
+    text-decoration: none;
+    color: #000;
+}
+.main .selectinglist p a:hover{
+    color: rgb(86, 183, 224);
+}
+.main .talk{
+    margin-top: 10px;
+}
+.main .talk h2{
+    font-size: 32px;
+    line-height: 240%;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.main .talk h2 a{
+    color: #c30d22;
+    text-decoration: none;
+}
+.main .talking{
+    height: 139px;
+}
+.main .talking ul::after{
+    content: '';
+    display: block;
+    clear: both;
+    /* overflow: hidden; */
+}
+.main .talking ul li{
+    padding: 10px 10px;
+   border-bottom: 1px solid #eee;
+    float: left;
+    width: 47%;
+    list-style-type: disc;
+}
+.main .talking ul li a{
+    color: #000;
+    text-decoration: none;
+    /* 多余部分出现点点 */
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* 显示文本的行数 */
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.main .talking ul li a:hover{
+    color: rgb(86, 183, 224);
+}
+.main .talking p{
+    margin-top: 10px;
+    text-align: right;
+}
+.main .talking p a{
+    text-decoration: none;
+    color: #000;
+}
+.main .talking p a:hover{
+    color: rgb(86, 183, 224);
+}
+.main .specialcolumn{
+    margin-top: 10px;
+}
+.main .specialcolumn h2{
+    font-size: 32px;
+    line-height: 240%;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.main .specialcolumn h2 a{
+    color: #c30d22;
+    text-decoration: none;
+}
+.main .specialpic{
+    width: 1000px;
+    height: 287px;
+    overflow: hidden;
+}
+.main .specialpic .sl{
+    width: 370px;
+    height: 200px;
+    float: left;
+    background: #ffffff;
+}
+.main .specialpic .sl .pi img{
+    width: 370px;
+    height: 170.69px;
+}
+.main .specialpic .sl .three{
+    margin-top: 2px;
+    margin-left: 17px;
+}
+.main .specialpic .sl .three span{
+    font-size: 18px; 
+    font-weight: bold;
+}
+.main .specialpic .sl .three span a{
+    color: #000;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.main .specialpic .sl .three span a:hover{
+    color: rgb(86, 183, 224);
+}
+
+.main .specialpic .sl .three span img{
+    vertical-align: middle;
+}
+.main .specialpic .sr{
+    width: 600px;
+    height: 287px;
+    float: right;
+    background: #ffffff;
+}
+.main .specialpic .sr ul{
+    overflow: hidden;
+}
+.main .specialpic .sr ul li{
+    float: left;
+    width: 180px;
+    margin-right: 20px;
+}
+.main .specialpic .sr .up{
+    margin-bottom: 30px;
+}
+.main .specialpic .sr .up a img{
+    width: 180px;
+    height: 105.4px;
+}
+.main .specialpic .sr .up p{
+    margin-top: 20px;
+    /* text-align: center; */
+}
+.main .specialpic .sr .up p a{
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+}
+.main .specialpic .sr .up p a:hover{
+    color: rgb(86, 183, 224);
+}
+.main .specialpic .sr .down a{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 120px;
+}
+.main .specialpic .sr .down a:hover{
+    color: rgb(86, 183, 224);
+}
+.main .specialpic .sr .down i img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    /* margin-left: 60px; */
+}
+.main .specialpic .sr .down i{
+    position: relative;
+}
+.main .specialpic .sr .down #link{
+    width: 120px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #f0eae5;
+    bottom: 0px;
+    right: 19px;
+    position: absolute;
+    display: none;
+}
+.main .specialpic .sr .down #link em{
+    margin: 2px 4px;
+}
+.main .specialpic .sr .down #link em img{
+    width: 18px;
+    height: 18px;
+}
+.foot{
+   padding: 50px 0px;
+}
+.foot p{
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000;
+}

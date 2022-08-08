@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+header{
+    height: 115px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+header h1{
+    /* 标题 和  p 可以浮动 */
+    float: left;   
+    margin-top: 24px;
+    margin-left: 42px;
+}
+header p{  
+    float: right;
+    /* 不能为p里面的a去除下划线 
+    text-decoration: none;  */
+    margin-top: 47px;
+    margin-right: 47px;
+}
+p a{  
+    /* 消除文本p下面的a的下划线 */
+    text-decoration: none;
+
+}
+.r{
+    color: #555555;
+}       
+.b{
+    color: #003366;
+}
+main{
+    width: 1147px;
+    height: 835px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: #ffffff; */
+    background: #fbfbfb;
+    border: 1px solid #d3d3d3;
+}
+main h1{
+    margin-top: 63px;
+    margin-left: 362px;
+    /* font-weight:bold; */
+    /* 标题也可以改大小 字体  不可以加粗
+    font-size: 19px; */
+    /* font-family: "楷体"; */ 
+}
+main p{
+    margin-left: 69px;
+}
+main span{
+    color: #dddddd;
+}
+/* .placeholder{
+    padding-left: 20px;  默认文字的样式
+} */
+ label{
+    width: 106px;
+    color: #333333;
+    font-size: 17px;
+    /*转化显示模式 */
+    display: inline-block;
+    /* 文字两端对齐 */
+    /* text-align: justify;
+    text-justify:distribute-all-lines; 
+    text-align-last: justify; */
+}
+/* placeholder样式 */
+::-ms-input-placeholder{
+    color: blue;
+}
+::-webkit-input-placeholder{
+    color:blue;
+}
+::placeholder{
+    color:#555555;
+    padding-left: 15px;
+}
+
+.phone{
+    /* width: 434px; */
+    height: 52px;
+    margin-top: 66px;
+}
+.phone input{
+    width: 434px;
+    height: 41px;
+    border: 1px solid #dddddd;
+    /* position: relative; */
+    /* 消除进入输入框的边框 */
+    outline: none;
+}
+.phone span{   
+    color: #999999;
+    margin-left: 55px;
+}
+.message{
+    height: 41px;   
+    margin-top: 44px;
+}
+.message input{
+    width: 234px;
+    height: 41px;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+.message button{
+    margin-left: 50px;
+    width: 146px;
+    height: 41px;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+
+    /* text-align: center; */
+    background: #ffffff;
+}
+.message span{
+    color: #999999;
+    margin-left: 60px;
+}
+.nick{
+    /* width: 634px; */
+    height: 41px;
+    
+    margin-top: 44px;
+}
+.nick input{
+    width: 434px;
+    height: 41px;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+.nick span{
+    color: #999999;
+    margin-left: 55px;
+}
+.password{
+    /* width: 634px; */
+    height: 41px;
+    
+    margin-top: 44px;
+}
+.password input{
+    width: 434px;
+    height: 41px;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+.password span{
+    margin-left: 55px;
+    color: #999999;
+}
+.config{
+    /* width: 634px; */
+    height: 41px;
+   
+    margin-top: 44px;
+}
+.config input{
+    width: 434px;
+    height: 41px;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+.config span{
+    color: #999999;
+    margin-left: 55px;
+}
+.xieyi a{
+    color: #003366;
+    margin-right: 3px;
+    margin-top: 40px;
+}
+.xieyi {
+    color: #999999;
+    height: 41px;
+    margin-left: 176px;
+    margin-top: 35px;
+}
+.button{
+    margin-top: 19px;
+    margin-left: 173px;
+}
+.button .submit{
+    width: 169px;
+    height: 50px;
+    color: white;
+    background: #e20011;
+}
+.button .reset{
+    margin-left: 30px;
+    width: 169px;
+    height: 50px;
+    color: #999999;
+    background: #dddddd;
+}
+footer{
+    height: 100px;
+    background: #fbfbfb;
+    margin-top: 63px;
+}
+footer h5{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999999;
+}
